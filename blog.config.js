@@ -5,9 +5,7 @@ const BLOG = {
   lightBackground: '#FFFFFF', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#222222', // use hex value, don't forget '#'
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  craftConfigShareUrl: process.env.CRAFT_CONFIG_SHARE_URL
-    ? process.env.CRAFT_CONFIG_SHARE_URL
-    : 'https://willliu.craft.me/vS7P62PNEMUfdn', // The link to share your craft config
+  craftConfigShareUrl: 'https://willliu.craft.me/vS7P62PNEMUfdn', // The link to share your craft config
   seo: {
     keywords: ['Blog', 'Craft.do', 'Craft Docs', 'Next.js', 'TailwindCSS']
   },
