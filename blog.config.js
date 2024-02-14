@@ -1,5 +1,5 @@
 const BLOG = {
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW']
+  lang: 'zh-TW', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#FFFFFF', // use hex value, don't forget '#' e.g #fffefc
@@ -7,7 +7,7 @@ const BLOG = {
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   craftConfigShareUrl: process.env.CRAFT_CONFIG_SHARE_URL
     ? process.env.CRAFT_CONFIG_SHARE_URL
-    : 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
+    : 'https://willliu.craft.me/vS7P62PNEMUfdn', // The link to share your craft config
   seo: {
     keywords: ['Blog', 'Craft.do', 'Craft Docs', 'Next.js', 'TailwindCSS']
   },
